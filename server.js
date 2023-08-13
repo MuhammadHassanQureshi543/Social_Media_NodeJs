@@ -14,12 +14,9 @@ app.use(express.static(path.join(__dirname,"public")))
 app.use(cors());
 app.options('*',cors());
 
-let DB = `mongodb+srv://socialmedia:<password>@cluster0.dz5c9ue.mongodb.net/socialmedia?retryWrites=true&w=majority`
-password = 'KingBaglool'
-// let DB = `mongodb+srv://scam:<password>@cluster0.hpiqu3n.mongodb.net/scam?retryWrites=true&w=majority`;
-// const password = 'Y3vLyYqImrqHBorK';
-// Y3vLyYqImrqHBorK
-// scam
+let DB = `Your Link`
+password = 'Your Password'
+
 
 DB = DB.replace('<password>',password)
 
